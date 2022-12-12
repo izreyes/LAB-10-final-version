@@ -16,9 +16,9 @@ public class ModelData {
 
     public ModelData(ArrayList<Player> players) {
        setPlayers(players);
+       LoadPlayers();
     }
     
-
     public ArrayList<Player> getPlayers() {
         return players;
     }
